@@ -1,0 +1,12 @@
+595a5dc744cdecdfb2188854336e1fd5 *DESCRIPTION
+b6e7446f0f42effa3ea66c281998bd68 *LICENSE
+3e007f0f9da1fa815c1f1445eceaba30 *NAMESPACE
+262b433728cb9eec695f7d83ea6af573 *R/rjstat.R
+58fe3e134d4c7c533a7acecb32a26fff *README.md
+3fb633d648f387f5f591feb906338bee *man/fromJSONstat.Rd
+b150f5c12b27601a3960bfacb3bdabd7 *man/rjstat.Rd
+38b23649249cd75fa0347e43bf76a4bf *man/toJSONstat.Rd
+15513b06272d37ebfb6a3e2c96274f3e *tests/testthat.R
+04864e0be9e754d829060094b678d2a5 *tests/testthat/dataset.json
+f2b59ae872127b3fd6192660052ca62e *tests/testthat/test-input.R
+80378a024cfb1f8a539e73fba5c203b9 *tests/testthat/test-output.R
