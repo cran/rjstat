@@ -1,6 +1,6 @@
 {
   "dataset": {
-    "label": "A dataset",
+    "label": "A dataset with array value",
     "source": "Random data",
     "updated": "2014-09-29",
     "value": [
@@ -12,35 +12,78 @@
     "dimension": {
       "id": [
         "testdimension1",
-        "testdimension2"
+        "testdimension2",
+        "testdimension3"
       ],
       "size": [
         2,
-        2
+        2,
+        1
       ],
       "testdimension1": {
-        "label": "A dimension",
+        "label": "A dimension with array index",
         "category": {
           "index": [
             "testcategory11",
             "testcategory12"
           ],
           "label": {
-            "testcategory11": "Category 11",
-            "testcategory12": "Category 12"
+            "testcategory12": "Category 12",
+            "testcategory11": "Category 11"
           }
         }
       },
       "testdimension2": {
-        "label": "Another dimension",
+        "label": "A dimension with object index",
+        "category": {
+          "index": {
+            "testcategory22": 1,
+            "testcategory21": 0
+          },
+          "label": {
+            "testcategory22": "Category 22",
+            "testcategory21": "Category 21"
+          }
+        }
+      },
+      "testdimension3": {
+        "label": "A dimension without index",
+        "category": {
+          "label": {
+            "testcategory3": "Category 3"
+          }
+        }
+      }
+    }
+  },
+  "dataset2": {
+    "label": "A dataset with object value",
+    "value": {
+      "3": 4,
+      "1": 2,
+      "0": null
+    },
+    "dimension": {
+      "id": [
+        "testdimension"
+      ],
+      "size": [
+        4
+      ],
+      "testdimension": {
+        "label": "A dimension",
         "category": {
           "index": [
-            "testcategory21",
-            "testcategory22"
+            "testcategory1",
+            "testcategory2",
+            "testcategory3",
+            "testcategory4"
           ],
           "label": {
-            "testcategory21": "Category 21",
-            "testcategory22": "Category 22"
+            "testcategory1": "Category 1",
+            "testcategory2": "Category 2",
+            "testcategory3": "Category 3",
+            "testcategory4": "Category 4"
           }
         }
       }

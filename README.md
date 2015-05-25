@@ -1,18 +1,31 @@
 # rjstat: read and write JSON-stat with R
 
+[![Build Status](https://travis-ci.org/ajschumacher/rjstat.svg)](https://travis-ci.org/ajschumacher/rjstat)
+
 Read and write data sets in the [JSON-stat](http://json-stat.org/) format.
 
-Installation:
+
+### Installation:
+
+[From CRAN](http://cran.r-project.org/web/packages/rjstat/) (most people use this):
+
+```s
+install.packages('rjstat')
+```
+
+[From github](https://github.com/ajschumacher/rjstat) (development version):
 
 ```s
 library(devtools)
 install_github("ajschumacher/rjstat")
 ```
 
-Usage:
+
+### Usage:
 
 ```s
 library(rjstat)
+
 oecd.canada.url <- "http://json-stat.org/samples/oecd-canada.json"
 
 # Read from JSON-stat to a list of data frames:
