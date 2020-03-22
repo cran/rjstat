@@ -2,22 +2,14 @@
   "version": "2.0",
   "class": "dataset",
   "label": "A dataset",
-  "value": [
-    1
-  ],
-  "id": [
-    "testdimension"
-  ],
-  "size": [
-    1
-  ],
+  "value": [1],
+  "id": ["testdimension"],
+  "size": [1],
   "dimension": {
     "testdimension": {
       "label": "A dimension",
       "category": {
-        "index": [
-          "testcategory"
-        ],
+        "index": ["testcategory"],
         "label": {
           "testcategory": "A category"
         }
