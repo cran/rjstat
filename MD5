@@ -1,11 +1,11 @@
-304982cf3f141007d65bcfc0bd3597ab *DESCRIPTION
-140080bbfdb12b0d7f2c4c8a152be1f7 *LICENSE
+ea48656570bdbc393a10c106b1052400 *DESCRIPTION
+73811cbfe313ebfa85db4132d9f7e546 *LICENSE
 e1b7490249882b08b494a69514d1e5a6 *NAMESPACE
 fca261ac31ead65bc49b10aded8f36d0 *R/jsonstat.R
 edca208b077ac48a3f5d766523c8c0d1 *R/jsonstat_accessors.R
-e233b51ab91ce054c8f6e8fc69acfbf0 *R/jsonstat_methods.R
+75e57732ee800fdab088df59350ffa7f *R/jsonstat_methods.R
 0f0b7f3ec14b680e8a05f6bca4f930f3 *R/rjstat.R
-b016e9cae4510f66d768ed654f7f9135 *README.md
+2ee3898fb81bec3a4dc77d9f1d83cdbd *README.md
 cf6ba940072d8b6bd9480f3454bc71e4 *inst/extdata/oecd.json
 eaf412f23eb9e8f987491bccc4eca560 *man/as.json.Rd
 3074c4b1172fd2f54f6bd2a8581eb249 *man/as.jsonstat.Rd
